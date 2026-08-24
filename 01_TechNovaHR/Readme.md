@@ -173,11 +173,11 @@ sql/05_Business_Questions.sql
 
 ## Project Structure
 
-TechNovaHR/
+```text
+01_TechNovaHR/
 |
 +-- README.md
 |
-+-- Complete_Database.sql
 +-- sql/
 |   +-- 01_Create_Database.sql
 |   +-- 02_Create_Tables.sql
@@ -186,8 +186,9 @@ TechNovaHR/
 |   +-- 05_Business_Questions.sql
 |   +-- 06_Verification_Queries.sql
 |
-+-- docs/
++-- Docs/
     +-- ERD.png
+```
 
 ---
 
@@ -291,7 +292,7 @@ Salary is stored using DECIMAL(10,2) because salary represents a monetary value 
 Employees.ManagerID references Employees.EmpID.
 
 This allows the database to represent reporting structures such as:
-
+```
 Amit
 |
 +-- Priya
@@ -299,7 +300,7 @@ Amit
 |   +-- Neha
 |
 +-- Rahul
-
+```
 ---
 
 ## Learning Progression
