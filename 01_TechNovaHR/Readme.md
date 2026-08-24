@@ -68,7 +68,7 @@ Bridge table used to implement the many-to-many relationship between employees a
 
 ## Entity Relationship Diagram
 
-![TechNova HR ERD](docs/ERD.png)
+![TechNova HR ERD](Docs/ERD.png)
 
 ---
 
